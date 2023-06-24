@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root{
+  --color1:#F9F9F9;
+  --color2:#FEFEFE;
+  --color3:#eae1dc;
+  --color4:#f6f3f1;
+  --color5:rgb(223, 0, 0);
+}
+*,*::after,*::before{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  padding: 30px;
+}
+.ctn{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 19px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 19px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 19px -5px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+.ctn1{
+  background: var(--color2);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ctn2{
+  background: var(--color3);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  background: none;
+  border: 2px solid var(--color5);
+  width: 110px;
+  height: 40px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  font-size: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+h1{
+  font-size: 30px;
+  height: 40px;
+  font-weight: 800;
+  font-size: 35px;
+}
+p{
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .7px;
+}
+.icon1, .icon2, .icon3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--color5);
+  background-color: var(--color4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.ctn12{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.icon1, .icon2{
+  margin-right: 10px;
+}
+.ctn13{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ctn131{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding:0px 100px;
+  margin: 10px 0px 20px;
+}
+.ctn131 input{
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border:none;
+  background-color: var(--color4);
+  padding: 20px;
+  outline: none;
+}
+.ctn131 input:last-child{
+  margin-top: 10px;
+}
+.ctn14 button{
+  background-color: var(--color4);
+  margin-top: 19px;
+}
+.ctn21{
+  margin-bottom: 20px;
+}
+.ctn24{
+  margin-top: 20px;
+}
